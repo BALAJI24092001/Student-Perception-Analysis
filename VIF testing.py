@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 import matplotlib.colors as pltcol
 import matplotlib.ticker as ticker
 import seaborn as sns
-get_ipython().run_line_magic('matplotlib', 'inline')
+# get_ipython().run_line_magic('matplotlib', 'inline')
 import math
 import statsmodels.api as sm
 from statsmodels.formula.api import ols
