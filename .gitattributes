@@ -1,2 +1,2 @@
-*.md linguist-language=md
-*.rst linguist-language=rst
+*.md linguist-detectable=true
+*.rst linguist-detectable=true
