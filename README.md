@@ -46,6 +46,124 @@ Considering all the questions and formulating the basic hypothesis on what are t
 
 <p>&nbsp &nbsp &nbsp &nbsp After the univariate exploratory analysis, we would have chosen some numerical variables to be good data, now we can check for regression coefficients and select which numerical variables could suit our model better. We create a heat map as shown in the figure, which shows the linear relationship between each of our numerical variables to the response variable, and the higher the correlation, the better it can impact the response variable for good accuracy and better prediction. Also, using the heatmap, we reduce the multicollinearity the exists in the data set.</p>
 
+#### Univariate frequency table
+<table>
+    <tr>
+        <td>How many hours do you spend studying per day?</td>
+        <td></td>
+        <td>What is overall duration of online classes per day? (provided by your college) (in Hours)</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>COUNT</td>
+        <td></td>
+        <td>COUNT</td>
+    </tr>
+    <tr>
+        <td>1. &lt; 1</td>
+        <td>7</td>
+        <td>1. &lt; 1</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>2. &lt; 2</td>
+        <td>11</td>
+        <td>2. &lt; 2</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>3. &lt; 5</td>
+        <td>18</td>
+        <td>3. &lt; 5</td>
+        <td>35</td>
+    </tr>
+    <tr>
+        <td>4. &gt; 5</td>
+        <td>12</td>
+        <td>4. &gt; 5</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>How much data do you use for Online classes per day? (in GB)</td>
+        <td></td>
+        <td>How much did you score in your exams? (in percentage)</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>COUNT</td>
+        <td></td>
+        <td>COUNT</td>
+    </tr>
+    <tr>
+        <td>&lt; 1</td>
+        <td>31</td>
+        <td>&lt;= 80</td>
+        <td>13</td>
+    </tr>
+    <tr>
+        <td>&lt; 2</td>
+        <td>16</td>
+        <td>&lt;= 85</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>&gt; 5</td>
+        <td>1</td>
+        <td>&lt;= 90</td>
+        <td>14</td>
+    </tr>
+    <tr>
+        <td>UNIVARIATE FREQUENCY TABLES</td>
+        <td></td>
+        <td>&lt;= 95</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>&lt;= 100</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>How much data do you use on an average per day? (in GB)</td>
+        <td></td>
+        <td>What is your preferred time duration of online classes per day? (in Hours)</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>COUNT</td>
+        <td></td>
+        <td>COUNT</td>
+    </tr>
+    <tr>
+        <td>1. &lt; 1</td>
+        <td>12</td>
+        <td>1. &lt; 1</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>2. &lt; 2</td>
+        <td>30</td>
+        <td>2. &lt; 2</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>3. &lt; 5</td>
+        <td>5</td>
+        <td>3. &lt; 5</td>
+        <td>33</td>
+    </tr>
+    <tr>
+        <td>4. &gt; 5</td>
+        <td>1</td>
+        <td>4. &gt; 5</td>
+        <td>8</td>
+    </tr>
+</table>
+
 ### Bivariate exploratory data analysis
 
 
